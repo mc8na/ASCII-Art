@@ -1,0 +1,9 @@
+This program converts a .ppm file into ASCII art.
+
+Compile:
+gcc -g -o ppm ppm.c
+
+Run:
+./ppm <input_ppm_file> <output_txt_file> <0/1>
+
+where {input}.ppm is the name of the image to be converted, {output}.txt is the name of the output file, and 0/1 determines whether the image is contrast or not.
